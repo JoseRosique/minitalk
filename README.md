@@ -26,3 +26,18 @@ functions:</p>
 <p>◦ sleep</p>
 <p>◦ usleep</p>
 <p>◦ exit</p>
+<b>Mandatory Part</b>
+<p>You must create a communication program in the form of a client and a server.</p>
+<p>• The server must be started first. After its launch, it has to print its PID.</p>
+<p>• The client takes two parameters:</p>
+<p>◦ The server PID.</p>
+<p>◦ The string to send.</p>
+<p>• The client must send the string passed as a parameter to the server.</p>
+<p>Once the string has been received, the server must print it.</p>
+<p>• The server has to display the string pretty quickly. Quickly means that if you think
+it takes too long, then it is probably too long.</p>
+<p>• Your server should be able to receive strings from several clients in a row without
+needing to restart.</p>
+<p>• The communication between your client and your server has to be done only using
+UNIX signals.</p>
+<p>• You can only use these two signals: SIGUSR1 and SIGUSR2.</p>
