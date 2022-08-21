@@ -32,8 +32,7 @@ functions:</p>
 <p>• The client takes two parameters:</p>
 <p>◦ The server PID.</p>
 <p>◦ The string to send.</p>
-<p>• The client must send the string passed as a parameter to the server.</p>
-<p>Once the string has been received, the server must print it.</p>
+<p>• The client must send the string passed as a parameter to the server. Once the string has been received, the server must print it.</p>
 <p>• The server has to display the string pretty quickly. Quickly means that if you think
 it takes too long, then it is probably too long.</p>
 <p>• Your server should be able to receive strings from several clients in a row without
