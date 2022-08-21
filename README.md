@@ -25,8 +25,8 @@ functions:</p>
 <p>◦ pause</p>
 <p>◦ sleep</p>
 <p>◦ usleep</p>
-<p>◦ exit</p>
-<b>Mandatory Part</b>
+<p>◦ exit<p/n>
+<b>MANDATORY PART</b>
 <p>You must create a communication program in the form of a client and a server.</p>
 <p>• The server must be started first. After its launch, it has to print its PID.</p>
 <p>• The client takes two parameters:</p>
